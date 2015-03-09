@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #0288D1;
+    position: fixed;
+    z-index: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner {
+    height: 500px;
+    width: 100%;
+    top: 50px;
+    position: fixed;
+}
+#video {
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 100%;
+    position: relative;
+    top: 550px;
+    height: 1500px;
+    background-color: white;
+}

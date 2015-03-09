@@ -1,0 +1,53 @@
+.crown {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: green;
+}
+.square {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    transform: rotate(30deg);
+}
+.square1 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotate(30deg);
+}
+.circle {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(-90deg);
+}
+.circle p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -20%);
+    color: blue;
+    text-align: center;
+}

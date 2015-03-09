@@ -1,0 +1,38 @@
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 150px solid blue;
+    border-right: 150px solid green;
+    border-bottom: 150px solid red;
+    border-left: 150px solid yellow;
+}
+.talk-box {
+    width: 350px;
+    height: 300px;
+    background-color: #0288D1;
+    padding: 20px;
+}
+.left-arrow {
+    position: absolute;
+    top: 16px;
+    right: 95%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #0288D1;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+.bottom-arrow {
+    position: absolute;
+    bottom: 0;
+    top: 96%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #0288D1;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+    transform: rotate(10deg);
+}
